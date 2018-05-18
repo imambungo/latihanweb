@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>CSS Sticky Horizontal Scrolling</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <style>
+        body{
+            width: 4000px;
+            height: 1500px;
+        }
+        .code{
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 40px;
+            background-color: green;
+        }
+        .sticky{
+            position: sticky;
+            top: 30px;
+            left: 13px;
+            background-color: blue;
+            width: 60px;
+        }
+        p{
+            white-space: nowrap;
+        }
+    </style>
 </head>
 <body>
-    
+    halo anybody here? answer <span class="sticky">tes</span> oit
+    <div class="code" style="margin-top: 120px; margin-left: 40%;">s<span style="color: transparent;">h</span>ow</div>
+    <div class="code">me</div>
+    <div class="code">the code</div>
 </body>
 </html>
